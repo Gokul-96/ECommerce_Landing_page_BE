@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 //new schema object creation using new monggose.schema
 const productSchema = new mongoose.Schema({
-  // id: { type: Number, required: true},
+  //id: { type: Number, required: true},
   name: { type: String, required: true },
   category: { type: String, required: true },
   price: { type: Number, required: true },
